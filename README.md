@@ -1,2 +1,1 @@
-# recipe-website-theodinproject
-practice website for basic recipes
+learing how to code a basic website with the help of the odin project
