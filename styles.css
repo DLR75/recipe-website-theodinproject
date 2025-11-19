@@ -1,0 +1,25 @@
+* {
+    color: black;
+}
+
+p {
+    color: red;
+    background-color: black;
+}
+
+div {
+    color: purple;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+.classid {
+    color: aqua;
+}
+
+#titleid {
+    background-color: blue;
+}
