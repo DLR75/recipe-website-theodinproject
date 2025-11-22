@@ -1,25 +1,56 @@
 * {
+    box-sizing: border-box;
+    padding: 0px;
+    /*border: 2px solid rgb(156, 81, 156);*/
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
     color: black;
 }
 
-p {
-    color: red;
-    background-color: black;
+#background {
+    background-color: lightgray;
 }
 
-div {
-    color: purple;
+#box-menu,
+.box-title,
+.box2 {
+    display: block;
+    background-color: white;
 }
 
-img {
-    height: auto;
-    width: 500px;
+#box-menu {
+    width: 90%;
+    margin: 0px auto;
+
 }
 
-.classid {
-    color: aqua;
+.box-title {
+    width: 75%;
+    margin: 50px auto;
 }
 
-#titleid {
-    background-color: blue;
+.box2 {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.menu-button {
+    background-color: lightgrey;
+    font-weight: 900;
+    height: 40px;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu-button:hover {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
 }
