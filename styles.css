@@ -8,49 +8,110 @@
 }
 
 #background {
-    background-color: lightgray;
+    background-color: rgb(246, 222, 184);
 }
 
-#box-menu,
+
 .box-title,
-.box2 {
-    display: block;
+.box-recipe {
     background-color: white;
 }
 
+
+
+
+
+
 #box-menu {
+    /*box*/
     width: 90%;
-    margin: 0px auto;
+    margin: 10px auto 0 auto;
+    background-color: rgb(253, 159, 100);
 
-}
+    display: flex;
 
-.box-title {
-    width: 75%;
-    margin: 50px auto;
-}
+    /*content*/
+    justify-content: center;        /*horiziontal alignment*/
+    align-items: center;            /*vertical alignment*/
 
-.box2 {
-    width: 75%;
-    margin: 20px auto;
 }
 
 .menu-button {
-    background-color: lightgrey;
-    font-weight: 900;
+    /*box*/
+    padding: 0 10px 0 10px;
     height: 40px;
-    margin-left: 10px;
-    display: inline-block;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0px 5px 0px 5px;
+    display: inline-flex;
+
+    /*content*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(229, 50, 86);
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    
 }
 
 .menu-button:hover {
     background-color: darkgray;
 }
 
+
+.box-title {
+    padding: 10px;
+    width: 75%;
+    margin: 50px auto 0 auto;
+    background-color: rgb(253, 159, 100);
+}
+
+
+.box-recipe {
+    /*box*/
+    width: 75%;
+    margin: 0 auto;                 /*center*/
+    display: flex;
+
+    /*content*/
+    justify-content: center;
+    flex-wrap: wrap;                /*start new line when no space*/
+    
+}
+
+.recipe {
+    /*box*/
+    background-color: rgb(252, 208, 181);
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+
+    display: inline-flex;
+
+    /*content*/
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.note {
+    /*box*/
+    width: 75%;
+    background-color: white;
+    margin: 20px auto 20px auto;
+
+    /*content*/
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
 h1 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
 }
