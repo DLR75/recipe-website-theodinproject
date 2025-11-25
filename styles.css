@@ -31,7 +31,7 @@
     display: flex;
 
     /*content*/
-    justify-content: center;        /*horiziontal alignment*/
+    justify-content: flex-start;        /*horiziontal alignment*/
     align-items: center;            /*vertical alignment*/
 
 }
@@ -41,7 +41,7 @@
     padding: 0 10px 0 10px;
     height: 40px;
     margin: 0px 5px 0px 5px;
-    display: inline-flex;
+    display: flex;
 
     /*content*/
     justify-content: center;
@@ -73,7 +73,7 @@
     display: flex;
 
     /*content*/
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;                /*start new line when no space*/
     
 }
@@ -85,13 +85,20 @@
     width: 150px;
     margin: 10px;
 
-    display: inline-flex;
+    display: flex;
 
     /*content*/
     text-decoration: none;
     justify-content: center;
     align-items: center;
 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.cinnamon {
+    background-image: url(./img/cinnamon-top.jpeg);
+    background-size: cover;
 }
 
 .note {
@@ -110,8 +117,8 @@
 
 h1 {
     text-align: center;
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
     color: white;
 }
