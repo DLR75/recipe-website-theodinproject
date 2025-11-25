@@ -11,28 +11,23 @@
     background-color: rgb(246, 222, 184);
 }
 
-
-.box-title,
-.box-recipe {
-    background-color: white;
+.container {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid purple; */
 }
-
-
-
-
-
 
 #box-menu {
     /*box*/
-    width: 90%;
-    margin: 10px auto 0 auto;
-    background-color: rgb(253, 159, 100);
+    width:75%;
+    margin: 10px 0 0 0;
 
     display: flex;
 
     /*content*/
-    justify-content: flex-start;        /*horiziontal alignment*/
+    justify-content: space-between;        /*horiziontal alignment*/
     align-items: center;            /*vertical alignment*/
+    gap: 10px;
 
 }
 
@@ -40,7 +35,8 @@
     /*box*/
     padding: 0 10px 0 10px;
     height: 40px;
-    margin: 0px 5px 0px 5px;
+    flex: auto;
+   
     display: flex;
 
     /*content*/
@@ -54,25 +50,21 @@
 }
 
 .menu-button:hover {
-    background-color: darkgray;
+    background-color: rgb(213, 41, 75);
 }
 
 
 .box-title {
-    padding: 10px;
+    background-color: rgb(210, 175, 119);
     width: 75%;
-    margin: 50px auto 0 auto;
-    background-color: rgb(253, 159, 100);
+    padding: 10px;
+    margin: 20px 0 0 0;
 }
 
-
 .box-recipe {
-    /*box*/
+    background-color: white;
     width: 75%;
-    margin: 0 auto;                 /*center*/
     display: flex;
-
-    /*content*/
     justify-content: space-evenly;
     flex-wrap: wrap;                /*start new line when no space*/
     
@@ -81,17 +73,21 @@
 .recipe {
     /*box*/
     background-color: rgb(252, 208, 181);
-    height: 150px;
-    width: 150px;
+    /* height: 150px; */
+    /* width: 150px; */
     margin: 10px;
 
     display: flex;
 
     /*content*/
-    text-decoration: none;
+    
     justify-content: center;
     align-items: center;
 
+    aspect-ratio: 1 / 1;
+    flex: 1 1 250px;
+    
+    text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
@@ -102,18 +98,12 @@
 }
 
 .note {
-    /*box*/
-    width: 75%;
     background-color: white;
-    margin: 20px auto 20px auto;
-
-    /*content*/
+    width: 75%;
+    margin: 20px 0 20px 0;
     padding: 10px;
     text-align: center;
 }
-
-
-
 
 h1 {
     text-align: center;
