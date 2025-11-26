@@ -72,6 +72,18 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
+ul {
+    font-size: 1rem;
+}
+
+ol {
+    font-size: 1rem;
+}
+
 a {
     color: rgb(192, 16, 45);
 }
