@@ -20,7 +20,7 @@
 #box-menu {
     /*box*/
     width:75%;
-    margin: 0.75rem 0 0 0;
+    margin: 1rem 0 0 0;
 
     display: flex;
 
@@ -99,6 +99,11 @@
 
 .cinnamon {
     background-image: url(./img/cinnamon-top.jpeg);
+    background-size: cover;
+}
+
+.pumpkin-curry {
+    background-image: url(./img/kuerbis-curry-quadrat.jpg);
     background-size: cover;
 }
 
