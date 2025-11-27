@@ -32,6 +32,15 @@
 
 }
 
+.title-pumpkin {
+    width: 75%;
+    aspect-ratio: 5304 / 2651;
+    background-image: url(../img/kuerbis-curry-breit-2zu1-title.jpg);
+    background-size: cover;
+    align-content: flex-end;
+    padding: 1rem 1rem 1rem 1.5rem;
+}
+
 .ingr-plate-container {
     display: flex;
     width: 75%;
